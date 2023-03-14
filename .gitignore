@@ -1,7 +1,9 @@
 # Logs
 logs
 *.log
+*.local
 npm-debug.log*
+pnpm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
@@ -81,6 +83,7 @@ typings/
 # Nuxt.js build / generate output
 .nuxt
 dist
+dist-ssr
 
 # Gatsby files
 .cache/
@@ -102,3 +105,15 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
