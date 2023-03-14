@@ -2,7 +2,6 @@ import React from "react";
 import calcDragHook from "../tools/calcDragHook";
 function App() {
     const { DynamicDiv, DragDiv, Xdrag, Ydrag } = calcDragHook();
-
     return (
         <div id="workspace" className="flex">
             <div id="sidebar" ref={DynamicDiv} className="h-screen flex bg-teal-900" style={{ width: Xdrag }} >
