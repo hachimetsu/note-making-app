@@ -1,0 +1,16 @@
+{
+    "Pages": {
+        "favorate": {
+            "p1": {
+                "icon": "book",
+                "title": "testing 1"
+            },
+            "p2": {
+                "icon": "home",
+                "title": "testing 2"
+            }
+        },
+        "private": {},
+        "public": {}
+    }
+}
